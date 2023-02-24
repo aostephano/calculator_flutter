@@ -7,5 +7,10 @@
 - ...
 
 #Flashcards questions
-- What is a Callback Function
-- 
+- What is a Callback Function?
+- How arrow functions work?
+- What Fold method/Reduce method do?
+- AddAll method does?
+
+#English flashcards
+- gist

@@ -18,7 +18,7 @@ class Button extends StatelessWidget {
       required this.cb})
       : super(key: key);
 
-  //Construtor nomeado
+  //Named constructor with ".name" typo
   Button.big(
       {Key? key,
       required this.text,

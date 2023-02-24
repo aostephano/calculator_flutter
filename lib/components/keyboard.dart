@@ -13,20 +13,28 @@ class Keyboard extends StatelessWidget {
       height: 500,
       child: Column(
         children: [
+          SizedBox(
+            height: 1,
+          ),
           ButtonRow(buttons: [
             Button.big(
               text: "AC",
               cb: cb,
+              color: Button.DARK,
             ),
             Button(
               text: "%",
               cb: cb,
+              color: Button.DARK,
             ),
             Button.operation(
               text: "/",
               cb: cb,
             ),
           ]),
+          SizedBox(
+            height: 1,
+          ),
           ButtonRow(buttons: [
             Button(text: "7", cb: cb),
             Button(
@@ -42,6 +50,9 @@ class Keyboard extends StatelessWidget {
               cb: cb,
             )
           ]),
+          SizedBox(
+            height: 1,
+          ),
           ButtonRow(buttons: [
             Button(
               text: "4",
@@ -60,6 +71,9 @@ class Keyboard extends StatelessWidget {
               cb: cb,
             ),
           ]),
+          SizedBox(
+            height: 1,
+          ),
           ButtonRow(buttons: [
             Button(
               text: "1",
@@ -78,6 +92,9 @@ class Keyboard extends StatelessWidget {
               cb: cb,
             ),
           ]),
+          SizedBox(
+            height: 1,
+          ),
           ButtonRow(buttons: [
             Button.big(
               text: "*",
