@@ -97,7 +97,7 @@ class Keyboard extends StatelessWidget {
           ),
           ButtonRow(buttons: [
             Button.big(
-              text: "*",
+              text: "0",
               cb: cb,
             ),
             Button(
