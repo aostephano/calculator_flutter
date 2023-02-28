@@ -13,6 +13,7 @@
 - How to pass values with Callback functions
 - How to use MVC structure in Flutter projects
 - Dart functionalities
+- How theme apps are implemented
 
 **- Flashcards questions - Checklist**
 
